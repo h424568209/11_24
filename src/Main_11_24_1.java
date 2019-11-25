@@ -15,7 +15,7 @@ public class Main_11_24_1 {
             for(int i =0 ; i < s.length()-n+1 ; i++){
                 String res = s.substring(i,n+i);
                 for(int j = 0 ; j < n ; j++){
-                    if(res.charAt(j) == 'C' || s.charAt(j) =='G'){
+                    if(res.charAt(j) == 'C' || res.charAt(j) =='G'){
                         count++;
                     }
                 }
